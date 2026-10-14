@@ -1,0 +1,12 @@
+filters:
+  and:
+    - 'type == "goal"'
+    - 'status == "active"'
+views:
+  - type: table
+    name: Mục tiêu đang theo đuổi
+    order:
+      - file.name
+      - area
+      - horizon
+      - period

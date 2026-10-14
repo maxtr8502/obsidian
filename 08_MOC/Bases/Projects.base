@@ -1,0 +1,23 @@
+filters:
+  and:
+    - 'type == "project"'
+    - 'status != "done"'
+    - 'status != "cancelled"'
+properties:
+  note.status:
+    displayName: Status
+  note.phase:
+    displayName: Phase
+views:
+  - type: table
+    name: Dự án đang chạy
+    order:
+      - file.name
+      - status
+      - phase
+      - priority
+      - due
+      - objective
+    sort:
+      - property: due
+        direction: ASC

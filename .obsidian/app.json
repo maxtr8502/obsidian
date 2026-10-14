@@ -1,0 +1,12 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Inbox",
+  "attachmentFolderPath": "99_Attachments",
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "propertiesInDocument": "visible",
+  "promptDelete": true,
+  "userIgnoreFilters": ["scripts/", "98_LocalOnly/_excluded/"]
+}

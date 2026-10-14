@@ -1,0 +1,29 @@
+{
+  "collapse-filter": false,
+  "search": "-path:90_Templates -path:99_Attachments -path:09_System",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    { "query": "path:02_Projects", "color": { "a": 1, "rgb": 4474111 } },
+    { "query": "path:03_Areas", "color": { "a": 1, "rgb": 5025616 } },
+    { "query": "path:04_Knowledge", "color": { "a": 1, "rgb": 16757575 } },
+    { "query": "path:05_People", "color": { "a": 1, "rgb": 15277667 } },
+    { "query": "path:06_Decisions", "color": { "a": 1, "rgb": 16729156 } },
+    { "query": "path:01_Journal", "color": { "a": 1, "rgb": 10066329 } }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}

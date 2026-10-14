@@ -1,0 +1,15 @@
+filters:
+  and:
+    - 'type == "decision" || type == "invest-decision"'
+views:
+  - type: table
+    name: Nhật ký quyết định
+    order:
+      - file.name
+      - scope
+      - status
+      - date
+      - review_on
+    sort:
+      - property: date
+        direction: DESC

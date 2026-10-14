@@ -1,0 +1,17 @@
+filters:
+  or:
+    - 'type == "person"'
+    - 'type == "org"'
+views:
+  - type: table
+    name: Người & tổ chức
+    order:
+      - file.name
+      - type
+      - role
+      - org
+      - influence
+      - org_kind
+    sort:
+      - property: file.name
+        direction: ASC

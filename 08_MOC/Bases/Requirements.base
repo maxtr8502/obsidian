@@ -1,0 +1,18 @@
+filters:
+  and:
+    - 'type == "requirement"'
+views:
+  - type: table
+    name: Requirements theo dự án
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - req_id
+      - status
+      - priority
+      - deliverable
+    sort:
+      - property: req_id
+        direction: ASC

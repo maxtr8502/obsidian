@@ -1,0 +1,16 @@
+# Giữ cục bộ, không đẩy lên GitHub
+98_LocalOnly/
+# Trạng thái giao diện / cache của Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+# Dữ liệu plugin có thể chứa token
+.obsidian/plugins/*/data.json
+# OS
+.DS_Store
+
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+.DS_Store

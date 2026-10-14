@@ -1,0 +1,15 @@
+filters:
+  and:
+    - 'type == "deliverable"'
+    - 'status != "accepted"'
+views:
+  - type: table
+    name: Deliverables chưa nghiệm thu
+    order:
+      - file.name
+      - project
+      - status
+      - due
+    sort:
+      - property: due
+        direction: ASC

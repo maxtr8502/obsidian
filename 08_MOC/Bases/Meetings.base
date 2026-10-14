@@ -1,0 +1,28 @@
+filters:
+  and:
+    - 'type == "meeting"'
+views:
+  - type: table
+    name: Họp gần đây
+    order:
+      - file.name
+      - date
+      - project
+      - status
+    sort:
+      - property: date
+        direction: DESC
+    limit: 30
+  - type: table
+    name: Họp còn action chưa xong
+    filters:
+      and:
+        - 'status != "closed"'
+    order:
+      - file.name
+      - date
+      - project
+      - status
+    sort:
+      - property: date
+        direction: ASC

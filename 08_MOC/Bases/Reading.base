@@ -1,0 +1,15 @@
+filters:
+  and:
+    - 'type == "literature"'
+    - 'status != "done"'
+views:
+  - type: table
+    name: Hàng đợi đọc / học
+    order:
+      - file.name
+      - source_type
+      - status
+      - captured
+    sort:
+      - property: captured
+        direction: DESC
